@@ -1,0 +1,166 @@
+{
+	"name": "CLion Plus Theme",
+	"type": "light",
+	"colors": {
+		"focusBorder": "#ffffff",
+		"titleBar.activeBackground": "#f2f2f2",
+		"titleBar.activeForeground": "#000000",
+		"titleBar.border": "#cdcdcd",
+		"titleBar.inactiveBackground": "#f2f2f2",
+		"titleBar.inactiveForeground": "#000000",
+		"menubar.selectionForeground": "#ffffff",
+		"menubar.selectionBackground": "#1a7dc4",
+		"menubar.selectionBorder": "#1a7dc4",
+		"menu.foreground": "#24292e",
+		"menu.background": "#f2f2f2",
+		"menu.selectionForeground": "#ffffff",
+		"menu.selectionBackground": "#1a7dc4",
+		"menu.selectionBorder": "#1a7dc4",
+		"menu.separatorBackground": "#cdcdcd",
+		"activityBar.background": "#f2f2f2",
+		"activityBar.border": "#c9c9c9",
+		"activityBar.dropBackground": "#f2f2f2",
+		"activityBar.foreground": "#6e6e6e",
+		"activityBar.inactiveForeground": "#bdbdbd",
+		"activityBarBadge.background": "#e69269",
+		"activityBarBadge.foreground": "#000000",
+		"sideBar.background": "#ffffff",
+		"sideBar.border": "#c0c0c0",
+		"sideBar.dropBackground": "#ffffff",
+		"sideBar.foreground": "#000000",
+		"sideBarSectionHeader.background": "#ffffff",
+		"sideBarSectionHeader.border": "#ffffff",
+		"sideBarSectionHeader.foreground": "#999999",
+		"sideBarTitle.foreground": "#999999",
+		"editorGutter.background": "#f0f0f0",
+		"editorLineNumber.foreground": "#999999",
+		"editorLineNumber.activeForeground": "#999999",
+		"editorGroupHeader.tabsBackground": "#f2f2f2",
+		"editorGroupHeader.tabsBorder": "#c9c9c9",
+		"tab.activeBackground": "#fafafa",
+		"tab.activeBorder": "#4083c9",
+		"tab.border": "#e1e4e8",
+		"tab.inactiveBackground": "#f2f2f2",
+		"tab.inactiveForeground": "#333333",
+		"tab.hoverBackground": "#dadada",
+		"editor.background": "#ffffff",
+		"editor.foreground": "#000000",
+		"editor.lineHighlightBackground": "#fffae3",
+		"editorIndentGuide.background": "#e9e9e9",
+		"editorBracketMatch.background": "#99ccff",
+		"editorBracketMatch.border": "#99ccff",
+		"editor.selectionBackground": "#d7dce8",
+		"editor.selectionForeground": "#ffffff",
+		"statusBar.background": "#f2f2f2",
+		"statusBar.border": "#919191",
+		"statusBar.foreground": "#000000",
+		"statusBarItem.hoverBackground": "#d9d9d9",
+		"statusBarItem.activeBackground": "#bdbdbd"
+	},"tokenColors": [
+		{
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#808080"
+			}
+		},
+		{
+			"scope": [
+				"source",
+				"string source",
+				"text source",
+				"punctuation.section",
+				"punctuation.definition",
+				"entity.name.function.preprocessor",
+				"variable.parameter.preprocessor",
+				"entity.name.type.struct",
+				"entity.name.type.alias",
+				"constant.numeric.css"
+			],
+			"settings": {
+				"foreground": "#000000",
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.directive",
+				"keyword.control.directive.include",
+				"keyword.control.directive.conditional",
+				"keyword.control.directive.define",
+				"keyword.control.directive.endif",
+				"keyword.control.directive.pragma",
+				"keyword.control.directive.diagnostic.error"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#808000",
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string",
+				"string.quoted.other.lt-gt.include",
+				"string.quoted.double",
+				"string.quoted.single",
+				"keyword.other.unit"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#008000",
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier",
+				"storage.type.built-in.primitive",
+				"keyword.control",
+				"keyword.other",
+				"storage.type",
+				"entity.name.tag",
+				"keyword.operator.new.js",
+				"punctuation.definition.keyword.css"
+
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#000080",
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric",
+				"keyword.other.unit",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#0000ff",
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name",
+				"support.type.property-name.css"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#0000ff",
+			}
+		},
+		{
+			"scope": [
+				"variable.other.readwrite.js",
+				"entity.name.type.js",
+				"variable.other.property.js",
+				"variable.language.arguments.js",
+				"variable.other.object.property.js"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#660e7a",
+			}
+		},
+	]
+}

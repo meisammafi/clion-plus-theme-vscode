@@ -1,0 +1,33 @@
+{
+    "name": "clion-plus-theme",
+    "displayName": "CLion Plus Theme",
+    "description": "A CLion color theme for VSCode!",
+    "version": "0.0.1",
+	"publisher": "meisammafi",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/meisammafi/clion-plus-theme-vscode"
+	},
+	"keywords": [
+		"Theme",
+		"Light Theme",
+		"CLion",
+		"Jetbrains"
+	],
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+	"icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "CLion Plus Theme",
+                "uiTheme": "vs",
+                "path": "./themes/clion-plus-color-theme.json"
+            }
+        ]
+    }
+}
